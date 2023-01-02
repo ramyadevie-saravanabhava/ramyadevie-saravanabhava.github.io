@@ -10,7 +10,7 @@ export default function Home() {
       </Head>
 
       <main className="max-w-4xl mx-auto mt-16 antialiased">
-      
+        
       </main>
     </div>
   )

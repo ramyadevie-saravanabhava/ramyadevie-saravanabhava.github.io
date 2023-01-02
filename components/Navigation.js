@@ -9,10 +9,10 @@ const Navigation = () => {
                 <Link href="/" className={"font-medium tracking-wider transition-colors text-gray-900 hover:text-sky-500 uppercase dark:text-white"}>
                         Ramya 
                 </Link>
-                <Link href="/" className={"font-medium tracking-wider transition-colors text-gray-900 hover:text-sky-500 uppercase dark:text-white"}>
+                <Link href="/skills" className={"font-medium tracking-wider transition-colors text-gray-900 hover:text-sky-500 uppercase dark:text-white"}>
                         Skills 
                 </Link>
-                <Link href="/" className={"font-medium tracking-wider transition-colors text-gray-900 hover:text-sky-500 uppercase dark:text-white"}>
+                <Link href="/workexperiences" className={"font-medium tracking-wider transition-colors text-gray-900 hover:text-sky-500 uppercase dark:text-white"}>
                         Work Experiences 
                 </Link>
                 <ThemeSwitch />
