@@ -1,4 +1,9 @@
 import React from "react"
+import Link from "next/link"
+import {faGithub, faLinkedin} from '@fortawesome/free-brands-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import '@fortawesome/fontawesome-svg-core/styles.css'
+
 
 const About = () => {
     return (
@@ -13,6 +18,12 @@ const About = () => {
                             An aspiring Passionate full stack web Developer
                         </p>
                     </div>
+                    <Link href="https://www.github.com/yuujay" target="_blank">
+                        <FontAwesomeIcon icon={faGithub}  size="xs"/>
+                    </Link>
+                    <FontAwesomeIcon icon={faLinkedin} fixedWidth listItem size="xs"/>
+                    
+                    
                 </div>
                 <div className="flex-shrink-0 lg:mt-12 lg:px-4 mb-10">
                     <img
