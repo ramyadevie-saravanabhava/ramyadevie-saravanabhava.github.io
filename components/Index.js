@@ -77,8 +77,8 @@ const About = () => {
                 <Image
                   src="/github.png"
                   alt="Ramya's Github profile"
-                  width={30} // Set appropriate width
-                  height={30} // Set appropriate height
+                  width={30}
+                  height={30}
                   className="icon"
                 />
               </Link>
@@ -92,8 +92,6 @@ const About = () => {
             <div class="abt-pic-container">
               <img
                 src="/about.jpg"
-                // height={100}
-                // width={1000}
                 alt="Profile picture"
                 class="about-pic"
               />
