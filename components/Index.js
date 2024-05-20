@@ -26,7 +26,7 @@ const About = () => {
         <section id="profile">
           <div class="section__pic-container">
             <Image
-              src={`/pic-focus.png`}
+              src={`/profile-pic-focus.jpg`}
               height={250}
               width={400}
               alt="Ramya Devie Profile Pic"
