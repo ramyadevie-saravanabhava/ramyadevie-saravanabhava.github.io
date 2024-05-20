@@ -455,6 +455,7 @@ const About = () => {
               </p>
             </div>
           </div>
+          <p className="text-center">Copyright &#169; 2024 Ramya Devie. All Rights Reserved.</p>
         </section>
       </div>
     </div>
