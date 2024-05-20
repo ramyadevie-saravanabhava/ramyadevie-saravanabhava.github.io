@@ -10,8 +10,8 @@ const About = () => {
       };
   const handleDownload = () => {
     const link = document.createElement("a");
-    link.href = "/Ramya-Resume.pdf"; // Update this path to your file's location in the public directory
-    link.download = "your-file.pdf"; // This sets the default file name
+    link.href = "/Ramya-Resume.pdf"; 
+    link.download = "Ramya-Resume.pdf";
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
@@ -26,7 +26,7 @@ const About = () => {
         <section id="profile">
           <div class="section__pic-container">
             <Image
-              src={`/profile-focus.jpg`}
+              src={`/pic-focus.png`}
               height={250}
               width={400}
               alt="Ramya Devie Profile Pic"
@@ -108,8 +108,8 @@ const About = () => {
                     alt="Experience icon"
                     className="icon"
                   />
-                  <h3>Experience</h3>
-                  <p>
+                  <h3 className="text-gray-900 dark:text-black">Experience</h3>
+                  <p className="text-gray-900 dark:text-black">
                     3+ years <br />
                     Full Stack Web Development
                   </p>
@@ -122,8 +122,8 @@ const About = () => {
                     alt="Education icon"
                     className="icon"
                   />
-                  <h3>Education</h3>
-                  <p>
+                  <h3 className="text-gray-900 dark:text-black">Education</h3>
+                  <p className="text-gray-900 dark:text-black">
                     B.E. Bachelors Degree
                     <br />
                     M.Sc. Masters Degree
@@ -152,7 +152,6 @@ const About = () => {
           <div class="experience-details-container">
             <div class="about-containers">
               <div class="details-container">
-                {/* <h2 class="experience-sub-title">Frontend Development</h2> */}
                 <div class="article-container">
                 <article>
                     <img
@@ -160,9 +159,9 @@ const About = () => {
                       alt="Experience icon"
                       class="icon"
                     />
-                    <div>
-                      <h3>NextJS</h3>
-                      <p>Intermediate</p>
+                    <div className="dark:text-white">
+                      <h3 className="text-gray-900 dark:text-black">NextJS</h3>
+                      <p className="text-gray-700 dark:text-black">Intermediate</p>
                     </div>
                   </article>
                   <article>
@@ -172,8 +171,8 @@ const About = () => {
                       class="icon"
                     />
                     <div>
-                      <h3>CI/CD Pipelines</h3>
-                      <p>Intermediate</p>
+                      <h3 className="text-gray-900 dark:text-black">CI/CD Pipelines</h3>
+                      <p className="text-gray-700 dark:text-black">Intermediate</p>
                     </div>
                   </article>
                   <article>
@@ -183,8 +182,8 @@ const About = () => {
                       class="icon"
                     />
                     <div>
-                      <h3>IaaC (Pulumi/Packer)</h3>
-                      <p>Experienced</p>
+                      <h3 className="text-gray-900 dark:text-black">IaaC (Pulumi/Packer)</h3>
+                      <p className="text-gray-700 dark:text-black">Experienced</p>
                     </div>
                   </article>
                   <article>
@@ -194,8 +193,8 @@ const About = () => {
                       class="icon"
                     />
                     <div>
-                      <h3>AWS</h3>
-                      <p>Intermediate</p>
+                      <h3 className="text-gray-900 dark:text-black">AWS</h3>
+                      <p className="text-gray-700 dark:text-black">Intermediate</p>
                     </div>
                   </article>
                   <article>
@@ -205,8 +204,8 @@ const About = () => {
                       class="icon"
                     />
                     <div>
-                      <h3>MongoDB</h3>
-                      <p>Experienced</p>
+                      <h3 className="text-gray-900 dark:text-black">MongoDB</h3>
+                      <p className="text-gray-700 dark:text-black">Experienced</p>
                     </div>
                   </article>
                   <article>
@@ -216,8 +215,8 @@ const About = () => {
                       class="icon"
                     />
                     <div>
-                      <h3>REST services</h3>
-                      <p>Experienced</p>
+                      <h3 className="text-gray-900 dark:text-black">REST services</h3>
+                      <p className="text-gray-700 dark:text-black">Experienced</p>
                     </div>
                   </article>
                   <article>
@@ -227,8 +226,8 @@ const About = () => {
                       class="icon"
                     />
                     <div>
-                      <h3>Git</h3>
-                      <p>Experienced</p>
+                      <h3 className="text-gray-900 dark:text-black">Git</h3>
+                      <p className="text-gray-700 dark:text-black">Experienced</p>
                     </div>
                   </article>
                   <article>
@@ -238,8 +237,8 @@ const About = () => {
                       class="icon"
                     />
                     <div>
-                      <h3>Selenium</h3>
-                      <p>Intermediate</p>
+                      <h3 className="text-gray-900 dark:text-black">Selenium</h3>
+                      <p className="text-gray-700 dark:text-black">Intermediate</p>
                     </div>
                   </article>
                   <article>
@@ -249,8 +248,8 @@ const About = () => {
                       class="icon"
                     />
                     <div>
-                      <h3>HTML/CSS</h3>
-                      <p>Experienced</p>
+                      <h3 className="text-gray-900 dark:text-black">HTML/CSS</h3>
+                      <p className="text-gray-700 dark:text-black">Experienced</p>
                     </div>
                   </article>
                   <article>
@@ -260,8 +259,8 @@ const About = () => {
                       class="icon"
                     />
                     <div>
-                      <h3>SASS</h3>
-                      <p>Intermediate</p>
+                      <h3 className="text-gray-900 dark:text-black">SASS</h3>
+                      <p className="text-gray-700 dark:text-black">Intermediate</p>
                     </div>
                   </article>
                   <article>
@@ -271,8 +270,8 @@ const About = () => {
                       class="icon"
                     />
                     <div>
-                      <h3>JavaScript/TypeScript</h3>
-                      <p>Intermediate</p>
+                      <h3 className="text-gray-900 dark:text-black">JavaScript/TypeScript</h3>
+                      <p className="text-gray-700 dark:text-black">Intermediate</p>
                     </div>
                   </article>
                   <article>
@@ -282,8 +281,8 @@ const About = () => {
                       class="icon"
                     />
                     <div>
-                      <h3>MySQL</h3>
-                      <p>Intermediate</p>
+                      <h3 className="text-gray-900 dark:text-black">MySQL</h3>
+                      <p className="text-gray-700 dark:text-black">Intermediate</p>
                     </div>
                   </article>
                   <article>
@@ -293,69 +292,20 @@ const About = () => {
                       class="icon"
                     />
                     <div>
-                      <h3>Material UI</h3>
-                      <p>Intermediate</p>
+                      <h3 className="text-gray-900 dark:text-black">Material UI</h3>
+                      <p className="text-gray-700 dark:text-black">Intermediate</p>
                     </div>
                   </article>
                 </div>
               </div>
-              {/* <div class="details-container">
-                <h2 class="experience-sub-title">Frontend Development</h2>
-                <div class="article-container">
-                  <article>
-                    <img
-                      src="/checkmark.png"
-                      alt="Experience icon"
-                      class="icon"
-                    />
-                    <div>
-                      <h3>PostgreSQL</h3>
-                      <p>Basic</p>
-                    </div>
-                  </article>
-                  <article>
-                    <img
-                      src="/checkmark.png"
-                      alt="Experience icon"
-                      class="icon"
-                    />
-                    <div>
-                      <h3>Node JS</h3>
-                      <p>Intermediate</p>
-                    </div>
-                  </article>
-                  <article>
-                    <img
-                      src="/checkmark.png"
-                      alt="Experience icon"
-                      class="icon"
-                    />
-                    <div>
-                      <h3>Express JS</h3>
-                      <p>Intermediate</p>
-                    </div>
-                  </article>
-                  <article>
-                    <img
-                      src="/checkmark.png"
-                      alt="Experience icon"
-                      class="icon"
-                    />
-                    <div>
-                      <h3>Git</h3>
-                      <p>Intermediate</p>
-                    </div>
-                  </article>
-                </div>
-              </div> */}
             </div>
           </div>
-          <img
+          {/* <img
             src="/arrow.png"
             alt="Arrow icon"
             class="icon arrow"
             onclick="location.href='./#projects'"
-          />
+          /> */}
         </section>
         <section class="section-nav-padding" id="projects">
           <p class="section__text__p1">Browse My Recent</p>

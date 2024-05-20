@@ -10,11 +10,11 @@ const Navigation = () => {
     <nav id="nav-center" className="sticky top-0 z-20 py-2 bg-white md:py-6 md:mb-0 dark:bg-black">
       <div className="container px-4 mx-auto lg:max-w-4xl flex items-center justify-between">
         <div class='logo' className="flex items-center justify-between w-full lg:w-auto">
-          <Link href="/" className="font-sans font-medium tracking-wider transition-colors text-gray-900 hover:text-lime-500 uppercase dark:text-white">
+          <Link href="/" className="font-sans font-medium tracking-wider transition-colors text-gray-900 hover:text-lime-500 dark:text-white">
             Ramya
           </Link>
 
-          <button
+          {/* <button
             className="text-gray-900 dark:text-white lg:hidden"
             onClick={() => setIsOpen(!isOpen)}
           >
@@ -27,7 +27,7 @@ const Navigation = () => {
             >
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16m-7 6h7"></path>
             </svg>
-          </button>
+          </button> */}
         </div>
 
         <div className={`lg:flex items-center ${isOpen ? 'block' : 'hidden'} w-full lg:w-auto`}>
