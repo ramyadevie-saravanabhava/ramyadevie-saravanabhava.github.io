@@ -5,12 +5,12 @@ import Link from "next/link";
 import { useRouter } from "next/router";
 
 const About = () => {
-    const handleNavigation = (url) => {
-        window.open(url, '_blank', 'noopener,noreferrer');
-      };
+  const handleNavigation = (url) => {
+    window.open(url, "_blank", "noopener,noreferrer");
+  };
   const handleDownload = () => {
     const link = document.createElement("a");
-    link.href = "/Ramya-Resume.pdf"; 
+    link.href = "/Ramya-Resume.pdf";
     link.download = "Ramya-Resume.pdf";
     document.body.appendChild(link);
     link.click();
@@ -18,7 +18,7 @@ const About = () => {
   };
   const router = useRouter();
   const handleNavigate = () => {
-    router.push("/contact");
+    router.push("#contact");
   };
   return (
     <div className="container px-4 mx-auto">
@@ -90,11 +90,7 @@ const About = () => {
           <h1 class="title">About Me</h1>
           <div class="section-container">
             <div class="abt-pic-container">
-              <img
-                src="/about.jpg"
-                alt="Profile picture"
-                class="about-pic"
-              />
+              <img src="/about.jpg" alt="Profile picture" class="about-pic" />
             </div>
             <div class="about-details-container">
               <div class="about-containers">
@@ -130,9 +126,12 @@ const About = () => {
               </div>
               <div class="text-container">
                 <p>
-                I am a seasoned web developer and system analyst with expertise in Java, JavaScript, and frameworks like Next.js and React. 
-                I specialize in optimizing UI interactions and backend processes, achieving significant performance improvements. 
-                My certifications and innovative projects underscore my commitment to excellence and technological advancement.
+                  I am a seasoned web developer and system analyst with
+                  expertise in Java, JavaScript, and frameworks like Next.js and
+                  React. I specialize in optimizing UI interactions and backend
+                  processes, achieving significant performance improvements. My
+                  certifications and innovative projects underscore my
+                  commitment to excellence and technological advancement.
                 </p>
               </div>
             </div>
@@ -151,7 +150,7 @@ const About = () => {
             <div class="about-containers">
               <div class="details-container">
                 <div class="article-container">
-                <article>
+                  <article>
                     <img
                       src="/checkmark.png"
                       alt="Experience icon"
@@ -159,7 +158,9 @@ const About = () => {
                     />
                     <div className="dark:text-white">
                       <h3 className="text-gray-900 dark:text-black">NextJS</h3>
-                      <p className="text-gray-700 dark:text-black">Intermediate</p>
+                      <p className="text-gray-700 dark:text-black">
+                        Intermediate
+                      </p>
                     </div>
                   </article>
                   <article>
@@ -169,8 +170,12 @@ const About = () => {
                       class="icon"
                     />
                     <div>
-                      <h3 className="text-gray-900 dark:text-black">CI/CD Pipelines</h3>
-                      <p className="text-gray-700 dark:text-black">Intermediate</p>
+                      <h3 className="text-gray-900 dark:text-black">
+                        CI/CD Pipelines
+                      </h3>
+                      <p className="text-gray-700 dark:text-black">
+                        Intermediate
+                      </p>
                     </div>
                   </article>
                   <article>
@@ -180,8 +185,12 @@ const About = () => {
                       class="icon"
                     />
                     <div>
-                      <h3 className="text-gray-900 dark:text-black">IaaC (Pulumi/Packer)</h3>
-                      <p className="text-gray-700 dark:text-black">Experienced</p>
+                      <h3 className="text-gray-900 dark:text-black">
+                        IaaC (Pulumi/Packer)
+                      </h3>
+                      <p className="text-gray-700 dark:text-black">
+                        Experienced
+                      </p>
                     </div>
                   </article>
                   <article>
@@ -192,7 +201,9 @@ const About = () => {
                     />
                     <div>
                       <h3 className="text-gray-900 dark:text-black">AWS</h3>
-                      <p className="text-gray-700 dark:text-black">Intermediate</p>
+                      <p className="text-gray-700 dark:text-black">
+                        Intermediate
+                      </p>
                     </div>
                   </article>
                   <article>
@@ -203,7 +214,9 @@ const About = () => {
                     />
                     <div>
                       <h3 className="text-gray-900 dark:text-black">MongoDB</h3>
-                      <p className="text-gray-700 dark:text-black">Experienced</p>
+                      <p className="text-gray-700 dark:text-black">
+                        Experienced
+                      </p>
                     </div>
                   </article>
                   <article>
@@ -213,8 +226,12 @@ const About = () => {
                       class="icon"
                     />
                     <div>
-                      <h3 className="text-gray-900 dark:text-black">REST services</h3>
-                      <p className="text-gray-700 dark:text-black">Experienced</p>
+                      <h3 className="text-gray-900 dark:text-black">
+                        REST services
+                      </h3>
+                      <p className="text-gray-700 dark:text-black">
+                        Experienced
+                      </p>
                     </div>
                   </article>
                   <article>
@@ -225,7 +242,9 @@ const About = () => {
                     />
                     <div>
                       <h3 className="text-gray-900 dark:text-black">Git</h3>
-                      <p className="text-gray-700 dark:text-black">Experienced</p>
+                      <p className="text-gray-700 dark:text-black">
+                        Experienced
+                      </p>
                     </div>
                   </article>
                   <article>
@@ -235,8 +254,12 @@ const About = () => {
                       class="icon"
                     />
                     <div>
-                      <h3 className="text-gray-900 dark:text-black">Selenium</h3>
-                      <p className="text-gray-700 dark:text-black">Intermediate</p>
+                      <h3 className="text-gray-900 dark:text-black">
+                        Selenium
+                      </h3>
+                      <p className="text-gray-700 dark:text-black">
+                        Intermediate
+                      </p>
                     </div>
                   </article>
                   <article>
@@ -246,8 +269,12 @@ const About = () => {
                       class="icon"
                     />
                     <div>
-                      <h3 className="text-gray-900 dark:text-black">HTML/CSS</h3>
-                      <p className="text-gray-700 dark:text-black">Experienced</p>
+                      <h3 className="text-gray-900 dark:text-black">
+                        HTML/CSS
+                      </h3>
+                      <p className="text-gray-700 dark:text-black">
+                        Experienced
+                      </p>
                     </div>
                   </article>
                   <article>
@@ -258,7 +285,9 @@ const About = () => {
                     />
                     <div>
                       <h3 className="text-gray-900 dark:text-black">SASS</h3>
-                      <p className="text-gray-700 dark:text-black">Intermediate</p>
+                      <p className="text-gray-700 dark:text-black">
+                        Intermediate
+                      </p>
                     </div>
                   </article>
                   <article>
@@ -268,8 +297,12 @@ const About = () => {
                       class="icon"
                     />
                     <div>
-                      <h3 className="text-gray-900 dark:text-black">JavaScript/TypeScript</h3>
-                      <p className="text-gray-700 dark:text-black">Intermediate</p>
+                      <h3 className="text-gray-900 dark:text-black">
+                        JavaScript/TypeScript
+                      </h3>
+                      <p className="text-gray-700 dark:text-black">
+                        Intermediate
+                      </p>
                     </div>
                   </article>
                   <article>
@@ -280,7 +313,9 @@ const About = () => {
                     />
                     <div>
                       <h3 className="text-gray-900 dark:text-black">MySQL</h3>
-                      <p className="text-gray-700 dark:text-black">Intermediate</p>
+                      <p className="text-gray-700 dark:text-black">
+                        Intermediate
+                      </p>
                     </div>
                   </article>
                   <article>
@@ -290,8 +325,12 @@ const About = () => {
                       class="icon"
                     />
                     <div>
-                      <h3 className="text-gray-900 dark:text-black">Material UI</h3>
-                      <p className="text-gray-700 dark:text-black">Intermediate</p>
+                      <h3 className="text-gray-900 dark:text-black">
+                        Material UI
+                      </h3>
+                      <p className="text-gray-700 dark:text-black">
+                        Intermediate
+                      </p>
                     </div>
                   </article>
                 </div>
@@ -318,30 +357,38 @@ const About = () => {
                     class="project-img"
                   />
                 </div>
-                <h2 class="experience-sub-title project-title">12 Factor Assignment Tracker App</h2>
+                <h2 class="experience-sub-title project-title">
+                  12 Factor Assignment Tracker App
+                </h2>
                 <div class="btn-container">
                   <button
                     class="btn btn-color-2 project-btn"
-                    onClick={() => handleNavigation('https://github.com/orgs/neu-ramya-12FactorApp/repositories')}
-        >
+                    onClick={() =>
+                      handleNavigation(
+                        "https://github.com/orgs/neu-ramya-12FactorApp/repositories"
+                      )
+                    }
+                  >
                     Github
                   </button>
                 </div>
               </div>
               <div class="details-container color-container">
                 <div class="article-container">
-                  <img
-                    src="/art.jpg"
-                    alt="Project 2"
-                    class="project-img"
-                  />
+                  <img src="/art.jpg" alt="Project 2" class="project-img" />
                 </div>
-                <h2 class="experience-sub-title project-title">Art Gallery Management System</h2>
+                <h2 class="experience-sub-title project-title">
+                  Art Gallery Management System
+                </h2>
                 <div class="btn-container">
                   <button
                     class="btn btn-color-2 project-btn"
-                    onClick={() => handleNavigation('https://github.com/Yuktagohil/ART_GALLERY_MANAGEMENT_SYSTEM')}
-        >
+                    onClick={() =>
+                      handleNavigation(
+                        "https://github.com/Yuktagohil/ART_GALLERY_MANAGEMENT_SYSTEM"
+                      )
+                    }
+                  >
                     Github
                   </button>
                 </div>
