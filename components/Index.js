@@ -5,6 +5,9 @@ import Link from "next/link";
 import { useRouter } from "next/router";
 
 const About = () => {
+    const handleNavigation = (url) => {
+        window.open(url, '_blank', 'noopener,noreferrer');
+      };
   const handleDownload = () => {
     const link = document.createElement("a");
     link.href = "/Ramya-Resume.pdf"; // Update this path to your file's location in the public directory
@@ -88,7 +91,7 @@ const About = () => {
           <div class="section-container">
             <div class="abt-pic-container">
               <img
-                src="/profile-pic-focus.jpg"
+                src="/about.jpg"
                 // height={100}
                 // width={1000}
                 alt="Profile picture"
@@ -362,75 +365,57 @@ const About = () => {
               <div class="details-container color-container">
                 <div class="article-container">
                   <img
-                    src="./assets/project-1.png"
+                    src="/assignment.jpg"
                     alt="Project 1"
                     class="project-img"
                   />
                 </div>
-                <h2 class="experience-sub-title project-title">Project One</h2>
+                <h2 class="experience-sub-title project-title">12 Factor Assignment Tracker App</h2>
                 <div class="btn-container">
                   <button
                     class="btn btn-color-2 project-btn"
-                    onclick="location.href='https://github.com/'"
-                  >
+                    onClick={() => handleNavigation('https://github.com/orgs/neu-ramya-12FactorApp/repositories')}
+        >
                     Github
                   </button>
-                  {/* <button
-                    class="btn btn-color-2 project-btn"
-                    onclick="location.href='https://github.com/'"
-                  >
-                    Live Demo
-                  </button> */}
                 </div>
               </div>
               <div class="details-container color-container">
                 <div class="article-container">
                   <img
-                    src="./assets/project-2.png"
+                    src="/art.jpg"
                     alt="Project 2"
                     class="project-img"
                   />
                 </div>
-                <h2 class="experience-sub-title project-title">Project Two</h2>
+                <h2 class="experience-sub-title project-title">Art Gallery Management System</h2>
                 <div class="btn-container">
                   <button
                     class="btn btn-color-2 project-btn"
-                    onclick="location.href='https://github.com/'"
-                  >
+                    onClick={() => handleNavigation('https://github.com/Yuktagohil/ART_GALLERY_MANAGEMENT_SYSTEM')}
+        >
                     Github
                   </button>
-                  {/* <button
-                    class="btn btn-color-2 project-btn"
-                    onclick="location.href='https://github.com/'"
-                  >
-                    Live Demo
-                  </button> */}
                 </div>
               </div>
               <div class="details-container color-container">
                 <div class="article-container">
                   <img
-                    src="./assets/project-3.png"
+                    src="/mental_health.png"
                     alt="Project 3"
                     class="project-img"
                   />
                 </div>
                 <h2 class="experience-sub-title project-title">
-                  Project Three
+                  Mental Health Application
                 </h2>
                 <div class="btn-container">
                   <button
                     class="btn btn-color-2 project-btn"
                     onclick="location.href='https://github.com/'"
                   >
-                    Github
+                    View Project
                   </button>
-                  {/* <button
-                    class="btn btn-color-2 project-btn"
-                    onclick="location.href='https://github.com/'"
-                  >
-                    Live Demo
-                  </button> */}
                 </div>
               </div>
             </div>
