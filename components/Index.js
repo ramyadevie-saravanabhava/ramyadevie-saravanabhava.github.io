@@ -400,7 +400,7 @@ const About = () => {
               <div class="details-container color-container dark:bg-black">
                 <div class="article-container">
                   <img
-                    src="/mental_health.png"
+                    src="/athena.png"
                     alt="Project 3"
                     class="project-img"
                   />
@@ -461,9 +461,6 @@ const About = () => {
               </p>
             </div>
           </div>
-          <p className="text-center">
-            Copyright &#169; 2024 Ramya Devie. All Rights Reserved.
-          </p>
         </section>
       </div>
     </div>
