@@ -94,7 +94,7 @@ const About = () => {
             </div>
             <div class="about-details-container">
               <div class="about-containers">
-                <div class="details-container">
+                <div class="details-container dark:bg-black">
                   <Image
                     src={`/experience.png`}
                     height={10}
@@ -102,13 +102,13 @@ const About = () => {
                     alt="Experience icon"
                     className="icon"
                   />
-                  <h3 className="text-gray-900 dark:text-black">Experience</h3>
-                  <p className="text-gray-900 dark:text-black">
+                  <h3 className="text-gray-900 dark:text-white">Experience</h3>
+                  <p className="text-gray-900 dark:text-white">
                     3+ years <br />
                     Full Stack Web Development
                   </p>
                 </div>
-                <div class="details-container">
+                <div class="details-container dark:bg-black">
                   <Image
                     src={`/education.png`}
                     height={10}
@@ -116,8 +116,8 @@ const About = () => {
                     alt="Education icon"
                     className="icon"
                   />
-                  <h3 className="text-gray-900 dark:text-black">Education</h3>
-                  <p className="text-gray-900 dark:text-black">
+                  <h3 className="text-gray-900 dark:text-white">Education</h3>
+                  <p className="text-gray-900 dark:text-white">
                     B.E. Bachelors Degree
                     <br />
                     M.Sc. Masters Degree
@@ -148,7 +148,7 @@ const About = () => {
           <h1 class="title">Skills</h1>
           <div class="experience-details-container">
             <div class="about-containers">
-              <div class="details-container">
+              <div class="details-container dark:bg-black">
                 <div class="article-container">
                   <article>
                     <img
@@ -157,8 +157,8 @@ const About = () => {
                       class="icon"
                     />
                     <div className="dark:text-white">
-                      <h3 className="text-gray-900 dark:text-black">NextJS</h3>
-                      <p className="text-gray-700 dark:text-black">
+                      <h3 className="text-gray-900 dark:text-white">NextJS</h3>
+                      <p className="text-gray-700 dark:text-white">
                         Intermediate
                       </p>
                     </div>
@@ -170,10 +170,10 @@ const About = () => {
                       class="icon"
                     />
                     <div>
-                      <h3 className="text-gray-900 dark:text-black">
+                      <h3 className="text-gray-900 dark:text-white">
                         CI/CD Pipelines
                       </h3>
-                      <p className="text-gray-700 dark:text-black">
+                      <p className="text-gray-700 dark:text-white">
                         Intermediate
                       </p>
                     </div>
@@ -185,10 +185,10 @@ const About = () => {
                       class="icon"
                     />
                     <div>
-                      <h3 className="text-gray-900 dark:text-black">
+                      <h3 className="text-gray-900 dark:text-white">
                         IaaC (Pulumi/Packer)
                       </h3>
-                      <p className="text-gray-700 dark:text-black">
+                      <p className="text-gray-700 dark:text-white">
                         Experienced
                       </p>
                     </div>
@@ -200,8 +200,8 @@ const About = () => {
                       class="icon"
                     />
                     <div>
-                      <h3 className="text-gray-900 dark:text-black">AWS</h3>
-                      <p className="text-gray-700 dark:text-black">
+                      <h3 className="text-gray-900 dark:text-white">AWS</h3>
+                      <p className="text-gray-700 dark:text-white">
                         Intermediate
                       </p>
                     </div>
@@ -213,8 +213,8 @@ const About = () => {
                       class="icon"
                     />
                     <div>
-                      <h3 className="text-gray-900 dark:text-black">MongoDB</h3>
-                      <p className="text-gray-700 dark:text-black">
+                      <h3 className="text-gray-900 dark:text-white">MongoDB</h3>
+                      <p className="text-gray-700 dark:text-white">
                         Experienced
                       </p>
                     </div>
@@ -226,10 +226,10 @@ const About = () => {
                       class="icon"
                     />
                     <div>
-                      <h3 className="text-gray-900 dark:text-black">
+                      <h3 className="text-gray-900 dark:text-white">
                         REST services
                       </h3>
-                      <p className="text-gray-700 dark:text-black">
+                      <p className="text-gray-700 dark:text-white">
                         Experienced
                       </p>
                     </div>
@@ -241,8 +241,8 @@ const About = () => {
                       class="icon"
                     />
                     <div>
-                      <h3 className="text-gray-900 dark:text-black">Git</h3>
-                      <p className="text-gray-700 dark:text-black">
+                      <h3 className="text-gray-900 dark:text-white">Git</h3>
+                      <p className="text-gray-700 dark:text-white">
                         Experienced
                       </p>
                     </div>
@@ -254,10 +254,10 @@ const About = () => {
                       class="icon"
                     />
                     <div>
-                      <h3 className="text-gray-900 dark:text-black">
+                      <h3 className="text-gray-900 dark:text-white">
                         Selenium
                       </h3>
-                      <p className="text-gray-700 dark:text-black">
+                      <p className="text-gray-700 dark:text-white">
                         Intermediate
                       </p>
                     </div>
@@ -269,10 +269,10 @@ const About = () => {
                       class="icon"
                     />
                     <div>
-                      <h3 className="text-gray-900 dark:text-black">
+                      <h3 className="text-gray-900 dark:text-white">
                         HTML/CSS
                       </h3>
-                      <p className="text-gray-700 dark:text-black">
+                      <p className="text-gray-700 dark:text-white">
                         Experienced
                       </p>
                     </div>
@@ -284,8 +284,8 @@ const About = () => {
                       class="icon"
                     />
                     <div>
-                      <h3 className="text-gray-900 dark:text-black">SASS</h3>
-                      <p className="text-gray-700 dark:text-black">
+                      <h3 className="text-gray-900 dark:text-white">SASS</h3>
+                      <p className="text-gray-700 dark:text-white">
                         Intermediate
                       </p>
                     </div>
@@ -297,10 +297,10 @@ const About = () => {
                       class="icon"
                     />
                     <div>
-                      <h3 className="text-gray-900 dark:text-black">
+                      <h3 className="text-gray-900 dark:text-white">
                         JavaScript/TypeScript
                       </h3>
-                      <p className="text-gray-700 dark:text-black">
+                      <p className="text-gray-700 dark:text-white">
                         Intermediate
                       </p>
                     </div>
@@ -312,8 +312,8 @@ const About = () => {
                       class="icon"
                     />
                     <div>
-                      <h3 className="text-gray-900 dark:text-black">MySQL</h3>
-                      <p className="text-gray-700 dark:text-black">
+                      <h3 className="text-gray-900 dark:text-white">MySQL</h3>
+                      <p className="text-gray-700 dark:text-white">
                         Intermediate
                       </p>
                     </div>
@@ -325,10 +325,10 @@ const About = () => {
                       class="icon"
                     />
                     <div>
-                      <h3 className="text-gray-900 dark:text-black">
+                      <h3 className="text-gray-900 dark:text-white">
                         Material UI
                       </h3>
-                      <p className="text-gray-700 dark:text-black">
+                      <p className="text-gray-700 dark:text-white">
                         Intermediate
                       </p>
                     </div>
@@ -349,7 +349,7 @@ const About = () => {
           <h1 class="title">Projects</h1>
           <div class="experience-details-container">
             <div class="about-containers">
-              <div class="details-container color-container">
+              <div class="details-container color-container dark:bg-black">
                 <div class="article-container">
                   <img
                     src="/assignment.jpg"
@@ -357,43 +357,47 @@ const About = () => {
                     class="project-img"
                   />
                 </div>
-                <h2 class="experience-sub-title project-title">
+                <h2 class="experience-sub-title project-title dark:text-white">
                   12 Factor Assignment Tracker App
                 </h2>
                 <div class="btn-container">
                   <button
-                    class="btn btn-color-2 project-btn"
+                    class="relative inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-teal-300 to-lime-300 group-hover:from-teal-300 group-hover:to-lime-300 dark:text-white dark:hover:text-gray-900 focus:ring-4 focus:outline-none focus:ring-lime-200 dark:focus:ring-lime-800"
                     onClick={() =>
                       handleNavigation(
                         "https://github.com/orgs/neu-ramya-12FactorApp/repositories"
                       )
                     }
                   >
-                    Github
+                    <span class="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
+                      Github
+                    </span>
                   </button>
                 </div>
               </div>
-              <div class="details-container color-container">
+              <div class="details-container color-container dark:bg-black">
                 <div class="article-container">
                   <img src="/art.jpg" alt="Project 2" class="project-img" />
                 </div>
-                <h2 class="experience-sub-title project-title">
+                <h2 class="experience-sub-title project-title dark:text-white">
                   Art Gallery Management System
                 </h2>
                 <div class="btn-container">
                   <button
-                    class="btn btn-color-2 project-btn"
+                    class="relative inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-teal-300 to-lime-300 group-hover:from-teal-300 group-hover:to-lime-300 dark:text-white dark:hover:text-gray-900 focus:ring-4 focus:outline-none focus:ring-lime-200 dark:focus:ring-lime-800"
                     onClick={() =>
                       handleNavigation(
                         "https://github.com/Yuktagohil/ART_GALLERY_MANAGEMENT_SYSTEM"
                       )
                     }
                   >
-                    Github
+                    <span class="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
+                      Github
+                    </span>
                   </button>
                 </div>
               </div>
-              <div class="details-container color-container">
+              <div class="details-container color-container dark:bg-black">
                 <div class="article-container">
                   <img
                     src="/mental_health.png"
@@ -401,15 +405,17 @@ const About = () => {
                     class="project-img"
                   />
                 </div>
-                <h2 class="experience-sub-title project-title">
+                <h2 class="experience-sub-title project-title dark:text-white">
                   Mental Health Application
                 </h2>
                 <div class="btn-container">
                   <button
-                    class="btn btn-color-2 project-btn"
+                    class="relative inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-teal-300 to-lime-300 group-hover:from-teal-300 group-hover:to-lime-300 dark:text-white dark:hover:text-gray-900 focus:ring-4 focus:outline-none focus:ring-lime-200 dark:focus:ring-lime-800"
                     onclick="location.href='https://github.com/'"
                   >
-                    View Project
+                    <span class="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
+                      Github
+                    </span>
                   </button>
                 </div>
               </div>
@@ -455,7 +461,9 @@ const About = () => {
               </p>
             </div>
           </div>
-          <p className="text-center">Copyright &#169; 2024 Ramya Devie. All Rights Reserved.</p>
+          <p className="text-center">
+            Copyright &#169; 2024 Ramya Devie. All Rights Reserved.
+          </p>
         </section>
       </div>
     </div>
