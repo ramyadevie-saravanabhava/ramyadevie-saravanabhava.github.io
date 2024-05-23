@@ -96,7 +96,7 @@ const About = () => {
               <div class="about-containers">
                 <div class="details-container dark:bg-black">
                   <Image
-                    src={`/experience.png`}
+                    src={`/quality.png`}
                     height={10}
                     width={30}
                     alt="Experience icon"
@@ -110,7 +110,7 @@ const About = () => {
                 </div>
                 <div class="details-container dark:bg-black">
                   <Image
-                    src={`/education.png`}
+                    src={`/university.png`}
                     height={10}
                     width={30}
                     alt="Education icon"
